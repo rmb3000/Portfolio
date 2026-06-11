@@ -1,0 +1,80 @@
+/*
+================================================
+Workforce Edge Partner Analytics — DAX Measures
+Author:      Rex M. Burdette | rex@rexsixsigma.com
+Platform:    Power BI / Microsoft Fabric
+Dataset:     Workforce Edge Analytics
+Description: Core DAX measures for the Workforce
+             Edge Partner Analytics dashboard.
+             Mirrors the BigQuery SQL queries built
+             for the Looker Studio dashboard.
+================================================
+*/
+
+-- ================================================
+-- Enrollment Measures
+-- ================================================
+
+Total Learners =
+COUNTROWS(Learner_Enrollment)
+
+
+Active Learners =
+CALCULATE(
+    COUNTROWS(Learner_Enrollment),
+    Learner_Enrollment[EnrollmentStatus] = "Active"
+)
+
+
+Completions =
+CALCULATE(
+    COUNTROWS(Learner_Enrollment),
+    Learner_Enrollment[EnrollmentStatus] = "Completed"
+)
+
+
+Withdrawals =
+CALCULATE(
+    COUNTROWS(Learner_Enrollment),
+    Learner_Enrollment[EnrollmentStatus] = "Withdrawn"
+)
+
+
+Completion Rate (%) =
+DIVIDE(
+    [Completions],
+    [Total Learners],
+    0
+) * 100
+
+
+-- ================================================
+-- Outcome Measures
+-- ================================================
+
+Promotions =
+CALCULATE(
+    COUNTROWS(Learner_Outcome),
+    Learner_Outcome[Promoted_Within12Mo] = TRUE()
+)
+
+
+Promotion Rate (%) =
+DIVIDE(
+    [Promotions],
+    COUNTROWS(Learner_Outcome),
+    0
+) * 100
+
+
+Avg Salary Increase (%) =
+AVERAGE(Learner_Outcome[SalaryIncrease_Pct])
+
+
+Retention 12Mo (%) =
+DIVIDE(
+    CALCULATE(
+        COUNTROWS(Learner_Outcome),
+        Learner_Outcome[RetainedAt12Mo] = "Y"
+    ),
+    COUNTROWS(Learn
