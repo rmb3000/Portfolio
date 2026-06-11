@@ -8,6 +8,8 @@
 A complete end-to-end healthcare analytics pipeline built on **Microsoft Fabric** using **medallion architecture** — from raw Excel ingestion through Silver Delta tables to an interactive Power BI executive dashboard tracking HEDIS quality measure compliance and open care gaps.
 
 ---
+## Dashboard Preview
+![HEDIS Gap Analysis Dashboard](HEDIS%20Entire%20Power%20BI%20Dashboard%20Screenshot.jpg)
 
 ## 📋 Project Overview
 
