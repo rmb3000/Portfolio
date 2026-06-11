@@ -2,12 +2,15 @@
 ================================================
 Workforce Edge Partner Analytics — DAX Measures
 Author:      Rex M. Burdette | rex@rexsixsigma.com
-Platform:    Power BI / Microsoft Fabric
-Dataset:     Workforce Edge Analytics
-Description: Core DAX measures for the Workforce
-             Edge Partner Analytics dashboard.
-             Mirrors the BigQuery SQL queries built
-             for the Looker Studio dashboard.
+Platform:    Power BI (Microsoft)
+Language:    DAX (Data Analysis Expressions)
+Note:        These measures are the Power BI 
+             equivalent of the BigQuery SQL queries
+             in this folder. The Looker Studio 
+             dashboard uses calculated fields with
+             similar logic. This file is ready to 
+             paste into Power BI Desktop once 
+             connected to the BigQuery data source.
 ================================================
 */
 
