@@ -1,0 +1,41 @@
+/*
+================================================
+HEDIS Gap Analysis — DAX Measures
+Author:      Rex M. Burdette | rex@rexsixsigma.com
+Platform:    Microsoft Fabric / Power BI
+Dataset:     HEDIS Quality Analytics Lakehouse
+Description: Core DAX measures powering the HEDIS
+             Quality Gap Analysis Dashboard.
+             Built on Silver layer Delta table:
+             Silver_HEDIS_Measure_Results
+================================================
+*/
+
+-- ================================================
+-- KPI Card Measures
+-- ================================================
+
+Total Eligible =
+COUNTROWS(Silver_HEDIS_Measure_Results)
+
+
+Total Compliant =
+CALCULATE(
+    COUNTROWS(Silver_HEDIS_Measure_Results),
+    Silver_HEDIS_Measure_Results[Numerator] = "Y"
+)
+
+
+Total Open Gaps =
+CALCULATE(
+    COUNTROWS(Silver_HEDIS_Measure_Results),
+    Silver_HEDIS_Measure_Results[GapOpen] = "Y"
+)
+
+
+Compliance Rate =
+DIVIDE(
+    [Total Compliant],
+    [Total Eligible],
+    0
+) * 100
