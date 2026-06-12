@@ -42,3 +42,20 @@ Two source tables joined on PartnerID:
 - **24-Month Retention** — % retained at employer 24 months post-completion
 - **Manager Rating** — average manager satisfaction score by partner
 - **Skills Applied Score** — average score measuring learning application on the job
+
+- ## Power BI Dashboard Screenshots
+
+**Page 1 — Enrollment & Completion**
+![Page 1](Power%20BI%20Page%201.jpg)
+
+**Page 2 — Career Outcomes**
+![Page 2](Power%20BI%20Page%202.jpg)
+
+**Page 3 — Retention**
+![Page 3](Power%20BI%20Page%203.jpg)
+
+**Page 4 — Engagement**
+![Page 4](Power%20BI%20Page%204.jpg)
+
+**Page 5 — Trends**
+![Page 5](Power%20BI%20Page%205.jpg)
