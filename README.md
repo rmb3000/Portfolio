@@ -33,7 +33,16 @@ compliance and open care gaps.
 
 ---
 
+🏥 CMS Open Payments Analytics — Microsoft Fabric Lakehouse
+
+*Microsoft Fabric · Python · Power BI · CMS Open Payments API*
+
+End-to-end Medallion Lakehouse pipeline ingesting live CMS Open Payments data (14.7M+ records) into Bronze, Silver, and Gold layers on Microsoft Fabric, with Power BI dashboard surfacing provider payment analytics by manufacturer, state, and specialty.
+
+📁 [View Project](./CMS_OpenPayments_Lakehouse)
+
 ## About
 20+ years of hands-on analytics leadership across healthcare and manufacturing. 
 Builder of production data pipelines, executive dashboards, and automated 
 validation workflows. Lean Six Sigma Master Black Belt.
+
