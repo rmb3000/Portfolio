@@ -3,7 +3,7 @@
 **Principal & Founder, Rex Six Sigma Institute**  
 Hands-On Senior Data & Analytics Leader | LSS Master Black Belt | ASQ Black Belt | ASQ CQE
 
-📧 rex@rexsixsigma.com | 🔗 [LinkedIn](https://linkedin.com/in/rexburdette) | 🌐 rexsixsigma.com
+📧 rex@rexsixsigma.com | 🔗 [LinkedIn](https://linkedin.com/in/rexburdette) | 🌐rexsixsigma.com
 
 ---
 
