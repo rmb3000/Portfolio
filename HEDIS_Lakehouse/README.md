@@ -9,7 +9,7 @@ A complete end-to-end healthcare analytics pipeline built on **Microsoft Fabric*
 
 ---
 ## Dashboard Preview
-![HEDIS Gap Analysis Dashboard](./screenshots/HEDIS%20Entire%20Power%20BI%20Dashboard%20Screenshot.jpg)
+![HEDIS Gap Analysis Dashboard](./screenshots/dashboard_1.png)
 
 ## 📋 Project Overview
 
@@ -57,7 +57,7 @@ Power BI Dashboard
 
 ## 📊 Dashboard
 
-![HEDIS Dashboard](./screenshots/HEDIS%20Entire%20Power%20BI%20Dashboard%20Screenshot.jpg)
+![HEDIS Dashboard](./screenshots/dashboard_1.png)
 
 ### Key Visuals
 - **KPI Cards** — Total Eligible (288), Total Compliant (178), Total Open Gaps (92), Compliance Rate (61.8%)
@@ -199,3 +199,4 @@ Built by **Rex M. Burdette, MBA** — Senior Data Analytics Leader and Lean Six 
 ---
 
 *This project uses simulated data for demonstration purposes. No real patient data was used.*
+
