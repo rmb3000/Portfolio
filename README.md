@@ -3,7 +3,7 @@
 **Principal & Founder, Rex Six Sigma Institute**  
 Hands-On Senior Data & Analytics Leader | LSS Master Black Belt | ASQ Black Belt | ASQ CQE
 
-📧 rex@rexsixsigma.com | 🔗 [LinkedIn](https://linkedin.com/in/rexburdette) | 🌐rexsixsigma.com
+📧 rex@rexsixsigma.com | 🔗 [LinkedIn](https://linkedin.com/in/rexburdette) | 🌐 rexsixsigma.com
 
 ---
 
@@ -48,6 +48,15 @@ End-to-end Medallion Lakehouse pipeline ingesting live CMS Open Payments data (1
 End-to-end Medallion Lakehouse pipeline ingesting live CMS Hospital General Information data into Bronze, Silver, and Gold Delta layers on Databricks, with a 2-page Power BI Desktop dashboard surfacing hospital quality analytics by type, ownership, and state across 335 rated U.S. facilities.
 
 **[📁 View Project](CMS_HospitalQuality_Lakehouse/)**
+
+---
+
+### 📈 FRED Economic Indicators — Databricks Lakehouse
+*Databricks · Delta Lake · Python · Power BI · FRED API*
+
+End-to-end time-series analytics pipeline ingesting live U.S. economic data (Unemployment Rate, CPI, Federal Funds Rate, 30-Year Mortgage Rate, GDP) from the Federal Reserve FRED API into Bronze, Silver, and Gold Delta layers on Databricks, with a Dim Date table enabling time intelligence and a dark-themed 2-page Power BI Desktop dashboard surfacing economic trends and year-over-year conditional heat map analysis from 1948 to present.
+
+**[📁 View Project](FRED_EconomicIndicators_Lakehouse/)**
 
 ---
 
