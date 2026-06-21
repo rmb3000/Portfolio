@@ -60,6 +60,15 @@ End-to-end time-series analytics pipeline ingesting live U.S. economic data (Une
 
 ---
 
+### 🔮 Customer Churn Prediction — Databricks Lakehouse
+*Databricks · Delta Lake · Python · scikit-learn · Power BI*
+
+End-to-end predictive analytics pipeline generating a synthetic 5,000-customer base through Bronze, Silver, and Gold Delta layers on Databricks, training a scikit-learn Random Forest classifier (0.823 accuracy, 0.878 ROC-AUC) to predict churn risk, with a dark-themed 2-page Power BI Desktop dashboard surfacing top churn drivers, risk segmentation, model calibration, and a prioritized highest-risk customer list.
+
+**[📁 View Project](CustomerChurn_Prediction_Lakehouse/)**
+
+---
+
 ## About
 20+ years of hands-on analytics leadership across healthcare and manufacturing. 
 Builder of production data pipelines, executive dashboards, and automated 
