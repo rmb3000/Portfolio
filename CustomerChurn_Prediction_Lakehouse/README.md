@@ -77,6 +77,8 @@ Synthetic Customer Generation (NumPy)
 
 **Note on recall:** the model is intentionally tuned toward precision over recall — when a churn flag fires, it's right 81.5% of the time, which matters for a retention team with limited outreach capacity. The trade-off is that it misses roughly half of actual churners (recall 0.493), a known limitation discussed further in Key Findings below.
 
+**Experiment tracking:** model training is logged with MLflow (hyperparameters, evaluation metrics, feature importance artifact, and the trained model itself), enabling run-to-run comparison as the model is retrained over time — a first step toward a full MLOps workflow rather than a one-off training script.
+
 ---
 
 ## 📊 Dashboard
@@ -177,6 +179,7 @@ df_gold_source['risk_segment'] = pd.cut(
 | Feature Engineering | Python (Pandas, scikit-learn LabelEncoder) |
 | Model | scikit-learn (RandomForestClassifier) |
 | Model Evaluation | scikit-learn (accuracy, precision, recall, ROC-AUC) |
+| Experiment Tracking | MLflow (hyperparameter, metric, and artifact logging) |
 | Orchestration | Databricks Notebooks (3 — Bronze, Silver, Gold) |
 | Visualization | Power BI Desktop (Live Databricks Connection) |
 | Data Source | Synthetic — generated in Bronze notebook |
