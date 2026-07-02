@@ -69,7 +69,18 @@ End-to-end predictive analytics pipeline generating a synthetic 5,000-customer b
 
 ---
 
+### 🌡️ CDC Respiratory ED Visit Surveillance — Cloud Analytics Pipeline
+*Python · AWS S3 · Alteryx · Snowflake · Tableau Public*
+
+End-to-end cloud analytics pipeline ingesting real CDC National Syndromic Surveillance Program (NSSP) emergency department respiratory illness data (11,700 records, COVID-19/Influenza/RSV) via Python into AWS S3, transforming via Alteryx One Designer Cloud workflow, loading into Snowflake, and publishing an interactive Tableau Public dashboard surfacing seasonal respiratory illness trends and pathogen-level comparisons from 2022 through 2026.
+
+**[📊 View Live Tableau Dashboard](https://public.tableau.com/app/profile/rex.burdette4656/viz/CDCRespiratoryEDVisitSurveillance2022-2026/Dashboard1)**  
+**[📁 View Project](CDC-Respiratory-Surveillance/)**
+
+---
+
 ## About
-20+ years of hands-on analytics leadership across healthcare and manufacturing. 
-Builder of production data pipelines, executive dashboards, and automated 
-validation workflows. Lean Six Sigma Master Black Belt.
+20+ years of hands-on analytics leadership across healthcare and manufacturing.
+Builder of production data pipelines, executive dashboards, and machine learning
+models across Databricks, Microsoft Fabric, Snowflake, AWS, Alteryx, Power BI,
+and Tableau. Lean Six Sigma Master Black Belt.
