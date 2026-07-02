@@ -17,6 +17,12 @@ Unlike purely theoretical portfolio projects, every tool in this pipeline is eit
 
 ---
 
+## Dashboard Preview
+
+![CDC Respiratory ED Visit Surveillance Dashboard](CDC_TableauPublic_Daashboard_rmb.png)
+
+---
+
 ## Data Source
 
 **CDC National Syndromic Surveillance Program (NSSP)**
@@ -140,3 +146,4 @@ Pareto-sorted bar chart showing average weekly ED visit percentage across the fu
 **Rex M. Burdette, MBA**
 Senior Data & Process Analytics Lead | Lean Six Sigma Master Black Belt
 rex@rexsixsigma.com | [linkedin.com/in/rexburdette](https://linkedin.com/in/rexburdette) | [github.com/rmb3000/Portfolio](https://github.com/rmb3000/Portfolio)
+
